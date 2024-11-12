@@ -6,6 +6,6 @@ pub struct ExchangeItem {
 
 #[derive(Debug)]
 pub struct Exchange{
-    pub date : String,
+    pub date: String,
     pub data: Vec<ExchangeItem>
 }
